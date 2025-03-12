@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Unbounded', sans-serif;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.texts {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 70px;
+    h4 {
+        font-size: 18px;
+        color: #E9C46A;
+        font-weight: 700;
+    }
+    h1 {
+        font-size: 36px;
+    }
+}
+
+.reviews {
+    height: 100%;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    background: url(/assets/img/businessman-sitting-by-table-cafe.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    gap: 25px;
+    
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.card-img {
+    background-color:rgba(231, 111, 81, 0.85) ;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 45px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    gap: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    z-index: 1;
+    img {
+        border:5px solid #fff ;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.card-img-text {
+    color: #fff;
+    text-align: center;
+
+    h5 {
+        font-weight: 400;
+    }
+}
+
+.card-text {
+    z-index: 2;
+    padding: 30px;
+
+    p {
+        color: #fff;
+        z-index: 22;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+
+}
+
+.point-stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    .bi-star-fill {
+        color:#E9C46A ;
+    }
+
+    .bi-star {
+        color: #fff;
+    }
+    p {
+        font-size: 28px;
+        margin-right: 20px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    
+}
