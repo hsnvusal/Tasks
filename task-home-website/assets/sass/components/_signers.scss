@@ -1,0 +1,68 @@
+.signers {
+  background: #f9f9ff;
+  margin-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  &-cards {
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-item {
+      width: 45%;
+      padding: 40px;
+      gap: 30px;
+      display: flex;
+      border: 1px solid #eeeeee;
+      border-radius: 10px;
+      transition: all .3s ;
+
+      @media screen and (min-width:200px) and (max-width:991px) {
+        width: 90%;
+        }
+
+
+      &:hover {
+        background-color: #fff;
+      }
+
+      &:hover .signers-cards-item-text-title h4 {
+        color: #fab700;
+      }
+
+      &-text {
+        &-paragraph {
+          line-height: 24px;
+          font-size: 14px;
+          font-family: "Roboto", sans-serif;
+          font-weight: normal;
+          color: #777777;
+          margin-bottom: 20px;
+        }
+
+        &-title {
+          h4 {
+            color: #222222;
+            font-family: "Oswald", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            transition: all .3s ;
+            margin-bottom: 5px;
+          }
+
+          h5 {
+            margin-bottom: 0px;
+            font-size: 14px;
+            color: #777777;
+            font-weight: normal;
+            font-family: "Roboto", sans-serif;
+          }
+        }
+      }
+
+      
+    }
+  }
+}

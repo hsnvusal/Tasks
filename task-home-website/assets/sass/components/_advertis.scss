@@ -1,0 +1,23 @@
+.advertis {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &-cards {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &-item {
+            text-align: center;
+            opacity: 0.5;
+            transition: all .3s;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            
+        }
+    }
+}
