@@ -1,0 +1,33 @@
+.marka {
+    background-color: #edeff3;
+    margin-top: 15px;
+    padding: 24px 0;
+
+
+    &-body {
+
+
+
+        &-items {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            &-item {
+                img {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        &-text {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1f1f1f;
+            margin-bottom: 20px;
+        }
+    }
+}

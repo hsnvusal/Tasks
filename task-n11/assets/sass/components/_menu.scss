@@ -1,0 +1,39 @@
+.menu {
+    background-color: #f6f7f9;
+    box-shadow: 0 2px 1px -1px rgba(31, 31, 31, .06), 0 1px 1px 0 rgba(31, 31, 31, .08), 0 1px 3px 0 rgba(31, 31, 31, .06);
+
+    @media screen and (max-width:991px) {
+        display: none;
+      }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1180px;
+
+        @media screen and (max-width:1180px) {
+            width: 991px; 
+          }
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        height: 45px;
+        a {
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: 600;
+            color: #424242;
+            max-width: 107px;
+            margin-left: 5px;
+        }
+    }
+}
