@@ -68,13 +68,13 @@
 
 // TASK8             Verilmiş array: [5, 10, 15, 20] – array boşalana qədər elementləri konsola yazdırın.do while
 
-// let numbers = [5, 10, 15, 20];
-// let number = 0;
-// do {
-//     console.log(numbers[number]);
-//     number++;
+let numbers = [5, 10, 15, 20];
+let number = 0;
+do {
+    console.log(numbers[number]);
+    number++;
 
-// } while (number < numbers.length);
+} while (number < numbers.length);
 
 // TASK9             1-dən 5-ə qədər ədədləri do while ilə konsola yazdırın.
 // let start = 1;
