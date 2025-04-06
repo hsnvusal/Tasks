@@ -22,8 +22,12 @@ function Show() {
 
 function deleteItemInBasket(id) {
   let basket = JSON.parse(localStorage.getItem("basket")) || [];
+  const index = basket.findIndex(item=>item.id ===id);
+  if (index !==-1)   {
+    basket.splice(index,1)
+  }
 
-  basket = basket.filter(item => item.id !== id);
+  // basket = basket.filter(item => item.id !== id);
   localStorage.setItem("basket", JSON.stringify(basket));
   location.reload();
 }
