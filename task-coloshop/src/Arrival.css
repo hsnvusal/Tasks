@@ -1,0 +1,65 @@
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .load-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .camera-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-top: 20px;
+    row-gap: 30px;
+  }
+  
+  .camera-card {
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .camera-card:hover {
+    box-shadow: 0 25px 29px rgba(63, 78, 100, 0.15);
+    border: solid 2px rgba(235, 235, 235, 1);
+  }
+  
+  .camera-card:not(:last-child) {
+    border: solid 2px rgba(235, 235, 235, 1);
+
+  }
+  
+  .camera-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .camera-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    height: 70px;
+    color: #1e1e27;
+    line-height: 20px;
+  }
+  
+  .camera-price {
+    text-align: center;
+    color: #fe4c50;
+    font-weight: 600;
+  }
+  
+
+
+
+

@@ -1,0 +1,21 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.category-buttons {
+  text-align: center;
+}
+.category-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.category-buttons button.active {
+  background: #ff4d4f;
+  color: white;
+}

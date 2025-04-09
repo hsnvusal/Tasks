@@ -19,7 +19,6 @@ function Show() {
     items.append(div);
   });
 }
-
 function deleteItemInBasket(id) {
   let basket = JSON.parse(localStorage.getItem("basket")) || [];
   const index = basket.findIndex(item=>item.id ===id);
