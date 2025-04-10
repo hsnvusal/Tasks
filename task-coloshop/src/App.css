@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .category-buttons {
   text-align: center;
 }

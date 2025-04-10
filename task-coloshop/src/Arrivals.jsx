@@ -1,9 +1,7 @@
 import React from 'react';
 import "./Arrival.css";
 
-
-
-const Arrivals = ({arrivals}) => {
+const Arrivals = ({ arrivals }) => {
   return (
     <div className="camera-grid">
       {arrivals.map((arrival, index) => (
@@ -14,12 +12,12 @@ const Arrivals = ({arrivals}) => {
             className="camera-image"
           />
           <h2 className="camera-title">{arrival.title}</h2>
-          
-          <p className="camera-price"> {arrival.price} $</p>
+          <p className="camera-price">{arrival.price} $</p>
+          <button className="add-to-cart-btn">ADD TO CART</button>
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Arrivals
+export default Arrivals;
