@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* Yukarıdaki navbar + top_nav için içerik boşluğu bırak */
+body.fixed-active {
+  padding-top: 150px;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s ease;
+
+  .nav {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.hide-top-info {
+  display: none;
+}

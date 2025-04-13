@@ -26,7 +26,6 @@ function App() {
     });
   };
 
-  // Sayt açıldıqda ilk datanı çək
   useEffect(() => {
     getData("all");
   }, []);
@@ -36,7 +35,6 @@ function App() {
       <Navbar />
       <Hero />
       <Category />
-
 
       <div className="container">
         <div style={{ padding: "20px" }}>
@@ -54,7 +52,9 @@ function App() {
               Men's
             </button>
             <button
-              className={selectedCategory === "women's clothing" ? "active" : ""}
+              className={
+                selectedCategory === "women's clothing" ? "active" : ""
+              }
               onClick={() => getData("women's clothing")}
             >
               Women's
@@ -77,9 +77,8 @@ function App() {
       </div>
       <DealOfTheWeek />
       <BestSellers />
-      
-<LatestBlogs />
 
+      <LatestBlogs />
     </div>
   );
 }

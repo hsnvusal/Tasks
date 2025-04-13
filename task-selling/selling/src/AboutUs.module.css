@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    align-items: center; 
+    background-color: #fff;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .imageSection {
+    position: relative;
+    width: 700px;
+    height: 520px;
+right: 70px;
+
+
+  }
+  .image {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlayText {
+    position: absolute;
+    bottom: -95px;
+    right: -20px;
+    background-color: #3ce0af;
+    padding: 0.2rem 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .overlayText p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+z 
+  .company {
+    color: #999;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .textSection h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .textSection p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center; 
+  }
+  
+
+  

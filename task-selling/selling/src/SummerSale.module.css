@@ -1,0 +1,101 @@
+.summerSale {
+    position: relative;
+    background: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+    overflow: hidden;
+    height: 700px; 
+    padding: 0 20px;
+  }
+  
+  
+  .summerSale::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+  }
+  
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+  
+  .subtitle {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 2px 0;
+  }
+  
+  .description {
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 45px;
+  }
+  
+  .timerBox {
+    background: #fff;
+    color: #00c58e;
+    padding: 0px 20px;
+  
+    border-radius: 7px;
+    width: 100%;
+    margin: 8px;
+    height: 90px;
+  }
+  
+  .timerBox span {
+    font-size:40px;
+    display: block;
+  }
+  
+  .timerBox small {
+    font-size: 12px;
+  }
+  
+  .shopButton {
+    padding: 16px 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .shopButton:hover {
+    background-color: #fff;
+    color: #000;
+  }

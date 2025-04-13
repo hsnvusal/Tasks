@@ -1,0 +1,50 @@
+.top_nav {
+  background-color: #f8f9fa !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: top 0.3s ease;
+  z-index: 999;
+}
+
+.top_icons {
+  display: flex;
+  gap: 10px;
+
+  a {
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+
+    i {
+      position: absolute;
+        top: 50%;
+        left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.top_nav_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_text {
+  display: flex;
+  gap: 25px;
+}
+
+.top_text_number {
+  display: flex;
+  gap: 10px;
+
+  a {
+    color: #f16821;
+  }
+}
+

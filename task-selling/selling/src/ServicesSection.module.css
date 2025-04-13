@@ -1,0 +1,80 @@
+.servicesSection {
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.subHeading {
+  font-size: 0.9rem;
+  color: gray;
+  letter-spacing: 2px;
+  margin-bottom: 0.2rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+
+.card {
+    background-color: transparent;
+    width: 420px; 
+    text-align: left;
+  }
+  
+  .cardContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 2.2rem; 
+    color: #f97316;
+    flex-shrink: 0;
+    margin-top: 0.3rem; 
+  }
+  
+  .textContent {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 1.5rem; 
+    color: #1f2937; 
+    margin: 0 0 0.6rem 0;
+  }
+  
+  .desc {
+    color: #6b7280;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    max-width: 220px; 
+    word-wrap: break-word;
+  }
+  
+  
+  .learnMore {
+    color: #f97316;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .learnMore:hover {
+    text-decoration: underline;
+  }
+  

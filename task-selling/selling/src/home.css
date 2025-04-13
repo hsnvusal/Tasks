@@ -1,0 +1,82 @@
+.home {
+    background: url(./assets/hero_2.jpg.webp);
+    height: calc(100vh);
+    position: relative;
+}
+
+/* .home::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+} */
+
+
+.home_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    h1 {
+        font-size: 60px;
+        font-weight: 400;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    p {
+        color: white;
+        font-size: 16px;
+        width: 50%;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+}
+
+.home_buttons {
+    display: flex;
+    gap: 5px;
+    a {
+        transition: all .3s ;
+        border-width: 2px;
+        border-color: #fff;
+        background: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 900;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: 1px solid transparent;
+        text-decoration: none;
+        color: black;
+    }
+
+    
+}
+
+.inline:hover {
+    background-color: transparent!important;
+    color: #fff!important;
+    border-color: #fff!important;
+
+}
+
+.outline {
+    background-color: transparent!important;
+    color: #fff!important;
+    border-color: #fff!important;
+
+
+}
+
+.outline:hover {
+    background-color: #fff!important;
+    color: black!important;
+}
