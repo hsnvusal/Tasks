@@ -1,0 +1,350 @@
+.lite {
+    background: url(../assets/home-foto.jpg);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lite_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+        color: #ffce55;
+        font-size: 37px;
+        font-family: Roboto;
+        font-weight: 700;
+        position: relative;
+    }
+
+    h2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 75px;
+        height: 4px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -37.5px;
+    }
+
+    h1 {
+        font-size: 57px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        font-family: Poppins;
+        max-width: 80%;
+        color: #fff;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.75;
+        margin-bottom: 35px;
+        color: #fff;
+        opacity: .75;
+    }
+
+
+}
+
+.lite_body_buttons {
+    button {
+        border-width: 2px;
+        margin-right: 25px !important;
+        border-color: #fff;
+        backface-visibility: hidden;
+        border-radius: 100px !important;
+        color: #fff;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 20px 40px;
+        background-color: transparent;
+        position: relative;
+        font-weight: 500 !important;
+    }
+}
+
+.nutshell {
+    padding: 50px;
+    text-align: center;
+
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+
+    p {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .h4 {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+}
+
+
+.recentWork {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #333;
+}
+
+.card p {
+    margin: 0 10px 10px 10px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.card strong {
+    display: block;
+    margin: 0 10px 10px 10px;
+    color: #000;
+    font-size: 1rem;
+}
+
+.clients {
+    text-align: center;
+    padding: 30px;
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+
+    p {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.news {
+    text-align: center;
+    padding: 30px;
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+
+    p {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+
+.team {
+    text-align: center;
+    padding: 30px;
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+
+    p {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.team_cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+.team_card {
+    img {
+        width: 100%;
+    }
+}
+
+.contact {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 30px;
+    h1 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 3px;
+        background-color: #ffce55;
+        left: 50%;
+        margin-left: -33px;
+    }
+
+    p {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.contact_card {
+    text-align: start;
+    margin-top: 40px;
+    div {
+        margin-bottom: 25px;
+
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
+}
