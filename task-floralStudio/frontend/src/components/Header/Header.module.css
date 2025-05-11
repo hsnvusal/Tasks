@@ -1,0 +1,49 @@
+.header {
+    background: rgba(16, 99, 78, 0.9);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 132;
+}
+
+.header_body_title {
+    a {
+        text-decoration: none;
+        h3 {
+            color: #fff;
+            font-weight: 900;
+        }
+    }
+}
+
+.header_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_body_items {
+    display: flex;
+    gap: 30px;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width:991px) {
+        display: none;
+    }
+}
+
+.hamburger {
+    display: none;
+    i {
+        color: #fff;
+    }
+
+    @media screen and (max-width:991px) {
+        display: block;
+    }
+}
