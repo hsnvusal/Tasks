@@ -1,0 +1,48 @@
+.shop {
+    padding: 20px;
+}
+
+.shop_cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shop_card {
+    position: relative;
+    width: 30%;
+
+    @media screen and (max-width:991px) {
+        width: 70%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.shop_card_text {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    text-align: center;
+    top: 46%;
+
+    a {
+        display: inline-block;
+        width: 180px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 500;
+        color: rgb(30, 30, 30);
+        transition: all 0.4s ease-in-out 0s;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+
+}

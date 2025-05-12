@@ -1,0 +1,33 @@
+.arrival {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.arrival_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrival_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arrival_card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 70%;
+        height: 100%;
+    }
+
+    @media screen and (max-width:1091px) {
+        width: 80%;
+    }
+}

@@ -1,0 +1,40 @@
+.fashion {
+    position: relative;
+    background-color: rgb(221, 229, 232);
+    background-image: url('../../../assets/fashion.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.fashion_body {
+    h3 {
+        font-size: 24px;
+    letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 110px;
+    margin: 17px 0px 49px;
+    }
+
+    button {
+        display: inline-block;
+        padding: 19px 61px;
+        background-color: rgb(47, 125, 252);
+        font-size: 15px;
+        font-weight: 700;
+        transition: all 0.5s ease 0s;
+        text-transform: capitalize;
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+    }
+}
+

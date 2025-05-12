@@ -1,0 +1,25 @@
+.shipping {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.shipping_card {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+    @media screen and (max-width:991px) {
+        width: 45%;
+    }
+
+    @media screen and (max-width:661px) {
+        width: 90%;
+    }
+}
+
